@@ -1,0 +1,36 @@
+
+
+/*Navigation Styling*/
+li {
+  display: inline-block;
+  text-decoration: none;
+}
+
+a:unvisited {
+  color:blue;
+}
+
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+/*Box Styling*/
+div h3 {
+  color: #996600;
+  font-size: 26px;
+  font-weight: normal;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.nav {
+  border: 2px solid black;
+  background-color: #FCC;
+  margin:10px;
+}
+
+.songs {
+  background-color: #ffffb3;
+  border:2px solid black;
+  margin:10px;
+}
