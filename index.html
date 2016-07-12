@@ -4,18 +4,18 @@
 <head>
   <meta charset="utf-8">
   <title>Music History</title>
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <!-- <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"> -->
   <link rel="stylesheet" type="text/css" href="main.css">
 </head>
 
 <body>
 <nav>
   <div class="nav">
-  <ul>
-    <li><a href="#">View Music</li></a>
-    <li><a href="#">Add Music</li></a>
-    <li><a href="#">Profile</li></a>
-  </ul>
+    <ul>
+      <li><a href="#">View Music</li></a>
+      <li><a href="#">Add Music</li></a>
+      <li><a href="#">Profile</li></a>
+    </ul>
   </div>
 </nav>
 
@@ -51,6 +51,42 @@
       <li>Album name |</li>
       <li>Genre</li>
     </ul>
+</div>
+
+<div class="bluebox">
+  <h4>Song length:</h4>
+
+  <h4>Artist:</h4>
+
+  <h4>Album:</h4>
+
+  <h4>Genre:</h4>
+    <div class="firstthree">
+    <!-- first three options to choose from for genre -->
+      <div>
+        <label for="rock">Rock</label>
+        <input type="checkbox" id="rock" name="genre">
+      </div>
+
+      <label for="pop" id="example">Pop
+        <input type="checkbox" id= "pop" name="genre">
+      </label>
+
+      <label for="blues">Blues</label>
+      <input type="checkbox" id= "blues" name="genre">
+    </div>
+
+    <div class="secondthree"> 
+    <!-- second three options to choose from for genre -->
+      <label for="classical">Classical</label>
+      <input type="checkbox" id= "classical" name="genre">
+
+      <label for="jazz">Jazz</label>
+      <input type="checkbox" id= "jazz" name="genre">
+
+      <label for="hiphop">Hip Hop</label>
+      <input type="checkbox" id= "hiphop" name="genre">
+    </div>
 </div>
 
 </body>

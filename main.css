@@ -1,6 +1,13 @@
 
 
 /*Navigation Styling*/
+
+.nav {
+  border: 2px solid black;
+  background-color: #FCC;
+  margin:10px 10px 0 10px;
+}
+
 li {
   display: inline-block;
   text-decoration: none;
@@ -10,27 +17,53 @@ a:unvisited {
   color:blue;
 }
 
-a:visited {
-  text-decoration: none;
-  color: black;
-}
+/*Song Box Styling*/
 
-/*Box Styling*/
-div h3 {
-  color: #996600;
+div h3 /* Song Name */ {
+  color: #534708;
   font-size: 26px;
   font-weight: normal;
   font-family: 'Open Sans', sans-serif;
-}
-
-.nav {
-  border: 2px solid black;
-  background-color: #FCC;
-  margin:10px;
+  margin-left: 15px;
 }
 
 .songs {
   background-color: #ffffb3;
   border:2px solid black;
-  margin:10px;
+  margin:10px 10px 10px 0;
+  float:right;
+  width: 67.5%
+}
+
+/*Blue Box Styling*/
+
+.bluebox {
+  background-color: rgba(13, 151, 226, 0.8);
+  border: 2px solid black;
+  float: left;
+  margin: 10px 0 10px 10px;
+  width: 27.5%;
+  height:440px;
+}
+
+h4 /*title of userinput area*/{
+  font-weight: normal;
+  font-family: 'Open Sans', sans-serif;
+  margin-left: 10px;
+}
+
+.firstthree {
+  float: left;
+  /*display: block;*/
+}
+#genreExample {
+  display: relative;
+}
+#example {
+  display: block;
+}
+
+.secondthree {
+float: right;
+/*display: block;*/
 }
