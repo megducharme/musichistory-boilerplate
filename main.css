@@ -4,7 +4,7 @@
 
 .nav {
   border: 2px solid black;
-  background-color: #FCC;
+  background-color: #FFB4B0;
   margin:10px 10px 0 10px;
 }
 
@@ -20,7 +20,7 @@ a:unvisited {
 /*Song Box Styling*/
 
 div h3 /* Song Name */ {
-  color: #534708;
+  color: #785616;
   font-size: 26px;
   font-weight: normal;
   font-family: 'Open Sans', sans-serif;
@@ -28,7 +28,7 @@ div h3 /* Song Name */ {
 }
 
 .songs {
-  background-color: #ffffb3;
+  background-color: #FEFAC0;
   border:2px solid black;
   margin:10px 10px 10px 0;
   float:right;
@@ -38,12 +38,12 @@ div h3 /* Song Name */ {
 /*Blue Box Styling*/
 
 .bluebox {
-  background-color: rgba(13, 151, 226, 0.8);
+  background-color: #4DD7FA;
   border: 2px solid black;
   float: left;
   margin: 10px 0 10px 10px;
   width: 27.5%;
-  height:440px;
+  height:416px;
 }
 
 h4 /*title of userinput area*/{
@@ -52,18 +52,10 @@ h4 /*title of userinput area*/{
   margin-left: 10px;
 }
 
-.firstthree {
-  float: left;
-  /*display: block;*/
-}
-#genreExample {
-  display: relative;
-}
-#example {
-  display: block;
+.genre ul{
+  columns: 2;
 }
 
-.secondthree {
-float: right;
-/*display: block;*/
+.genre li {
+  display: block;
 }
