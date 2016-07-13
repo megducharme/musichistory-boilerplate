@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <title>Music History</title>
-  <!-- <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"> -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="main.css">
 </head>
 
@@ -12,8 +12,8 @@
 <nav>
   <div class="nav">
     <ul>
-      <li><a href="#">View Music</li></a>
-      <li><a href="#">Add Music</li></a>
+      <li><a href="#">View Music</li> <span> |</span></a>
+      <li><a href="#">Add Music</li><span> |</span></a>
       <li><a href="#">Profile</li></a>
     </ul>
   </div>
@@ -24,32 +24,32 @@
 </div>
 
 <div class="songs">
-  <h3>Fight Song</h3>
+  <h3>I and Love and You</h3>
     <ul>
-      <li>Rachel Platten |</li>
-      <li>Fight Song |</li>
+      <li>The Avett Brothers |</li>
+      <li>I and Love and You |</li>
+      <li>Folk</li>
+    </ul>
+
+  <h3>Mirrors</h3>
+    <ul>
+      <li>Justin Timerlake |</li>
+      <li>The 20/20 Experience |</li>
       <li>Pop</li>
     </ul>
 
-  <h3>Song Name</h3>
+  <h3>Ledges</h3>
     <ul>
-      <li>Artist name |</li>
-      <li>Album name |</li>
-      <li>Genre</li>
+      <li>Noah Gundersen |</li>
+      <li>Ledges |</li>
+      <li>Alternative</li>
     </ul>
 
-  <h3>Song Name</h3>
+  <h3>Shake It Off</h3>
     <ul>
-      <li>Artist name |</li>
-      <li>Album name |</li>
-      <li>Genre</li>
-    </ul>
-
-  <h3>Song Name</h3>
-    <ul>
-      <li>Artist name |</li>
-      <li>Album name |</li>
-      <li>Genre</li>
+      <li>Taylor Swift |</li>
+      <li>1989 |</li>
+      <li>Country</li>
     </ul>
 </div>
 
@@ -57,8 +57,20 @@
   <h4>Song length:</h4>
 
   <h4>Artist:</h4>
+    <select class=dropdown>
+      <option value="theAvettBrothers">The Avett Brothers</option>
+      <option value="justinTimerlake">Justin Timberlake</option>
+      <option value="noahGundersen">Noah Gundersen</option>
+      <option value="taylorSwift">Taylor Swift</option>
+    </select>
 
   <h4>Album:</h4>
+    <select class=dropdown>
+      <option value="iandloveandyou">I and Love and You</option>
+      <option value="the2020experience">The 20/20 Experience</option>
+      <option value="ledges">Ledges</option>
+      <option value="1989">1989</option>
+    </select>
 
   <h4>Genre:</h4>
     <div class="genre">
@@ -87,7 +99,6 @@
         <li>
           <input type="checkbox" id= "hiphop" name="genre">
         <label for="hiphop">Hip Hop </label>
-       
         </li>
       </ul>
     </div>

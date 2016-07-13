@@ -17,9 +17,14 @@ a:unvisited {
   color:blue;
 }
 
+span {
+  font-weight: bold;
+}
+
 /*Song Box Styling*/
 
-div h3 /* Song Name */ {
+/* Song Name */
+div h3 {
   color: #785616;
   font-size: 26px;
   font-weight: normal;
@@ -32,7 +37,8 @@ div h3 /* Song Name */ {
   border:2px solid black;
   margin:10px 10px 10px 0;
   float:right;
-  width: 67.5%
+  width: 67.5%;
+  font-family: 'Open Sans', sans-serif;
 }
 
 /*Blue Box Styling*/
@@ -46,10 +52,15 @@ div h3 /* Song Name */ {
   height:416px;
 }
 
-h4 /*title of userinput area*/{
+/*title of userinput area*/
+h4 {
   font-weight: normal;
   font-family: 'Open Sans', sans-serif;
   margin-left: 10px;
+}
+
+.genre {
+  margin-left: 0;
 }
 
 .genre ul{
@@ -58,4 +69,8 @@ h4 /*title of userinput area*/{
 
 .genre li {
   display: block;
+}
+
+.dropdown {
+  margin-left: 83.5;
 }
