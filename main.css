@@ -1,5 +1,4 @@
 
-
 /*Navigation Styling*/
 
 .nav {
@@ -64,21 +63,6 @@ div h3 {
 .artistalbumgenre {
   margin:0 10px 0 10px;
 }
-/*
-.artistname{
-  height:14px;
-  width:72px;
-}
-
-.albumname {
-  height:14px;
-  width:79px;
-}
-
-.genre {
-  height:14px;
-  width:39px;
-}*/
 
 /*Blue Box Styling*/
 
@@ -97,11 +81,16 @@ div h3 {
   margin-left: 10px;
 }
 
+.slider {
+  margin-left: 20px;
+  border: 2px solid black;
+}
+
 /*title of userinput area*/
 h4 {
   font-weight: normal;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin-left: 10px;
+  margin: 15px 0 10px 10px;
 }
 
 .genre {
@@ -126,3 +115,14 @@ h4 {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 600;
 }
+
+.filterbutton {
+  border:2px solid black;
+  border-radius: 5px;
+  font-size: 16px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin-left: 42.5px;
+  width: 110px;
+  background-color:
+}
+
