@@ -11,10 +11,21 @@
 li {
   display: inline-block;
   text-decoration: none;
+  color: black;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+}
+
+.viewmusic{
+  color:black;
+  text-decoration: none;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
 }
 
 a:unvisited {
   color:blue;
+
 }
 
 span {
@@ -28,18 +39,46 @@ div h3 {
   color: #785616;
   font-size: 26px;
   font-weight: normal;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin-left: 15px;
+  margin-top: 20px;
+  margin-bottom:10px;
 }
 
 .songs {
   background-color: #FEFAC0;
   border:2px solid black;
-  margin:10px 10px 10px 0;
+  margin:10px 10px 5px 10px;
   float:right;
-  width: 67.5%;
-  font-family: 'Open Sans', sans-serif;
+  width: 607px;
+  height: 372px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+
+.songdescription {
+  font-size: 14px;
+  margin: 0;
+  padding:0 0 10px 18px;
+}
+
+.artistalbumgenre {
+  margin:0 10px 0 10px;
+}
+/*
+.artistname{
+  height:14px;
+  width:72px;
+}
+
+.albumname {
+  height:14px;
+  width:79px;
+}
+
+.genre {
+  height:14px;
+  width:39px;
+}*/
 
 /*Blue Box Styling*/
 
@@ -47,15 +86,21 @@ div h3 {
   background-color: #4DD7FA;
   border: 2px solid black;
   float: left;
-  margin: 10px 0 10px 10px;
-  width: 27.5%;
-  height:416px;
+  margin: 10px 0 5px 10px;
+  width: 195px;
+  height: 372px;
+}
+
+.dropdown {
+  border-radius: 50px;
+  border: 2px solid black;
+  margin-left: 10px;
 }
 
 /*title of userinput area*/
 h4 {
   font-weight: normal;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin-left: 10px;
 }
 
@@ -73,4 +118,11 @@ h4 {
 
 .dropdown {
   margin-left: 83.5;
+}
+
+.checkbox {
+  border-radius: 10px;
+  border:2px solid black;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 600;
 }
