@@ -24,8 +24,9 @@ for(i=0; i<removeChar.length; i++) {
 
 // when user enteres song name, artist and album on the add music page this will push to the finalArray and display on the page
 document.getElementById("addMusicButton").addEventListener("click", function () {
+  addView.classList.add("hidden");
+  homeView.classList.remove("hidden");
   var nameOfSong = document.getElementById("userInputSong").value;
-  console.log(nameOfSong)
   var nameOfArtist = document.getElementById("userInputArtist").value;
   var nameOfAlbum = document.getElementById("userInputAlbum").value;
   var addNewSong = nameOfSong + " - by " + nameOfArtist + " on the album " + nameOfAlbum
@@ -33,4 +34,5 @@ document.getElementById("addMusicButton").addEventListener("click", function () 
   console.log(finalArray)
   songBox.innerHTML +=
     `<p> ${addNewSong} </p>`
+
 })
