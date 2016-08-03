@@ -12,102 +12,124 @@
 <nav>
   <div class="nav">
     <ul>
-      <li><a href="#" class="viewmusic">View Music</li> <span class="viewmusic"> |</span></a>
-      <li><a href="#">Add Music</li><span class="viewmusic"> |</span></a>
-      <li><a href="#">Profile</li></a>
+      <li><a href="#" id="link-home">Home</a></li>
+      <li><a href="#" id="link-list">List</a></li>
+      <li><a href="#" id="link-add">Add</a></li>
     </ul>
   </div>
 </nav>
-
+<div class="maincontent">
 <div>
 
 </div>
+  <section id="home-view">
+    <div class="songs" id="songBox">
+      <!-- <h3>I and Love and You</h3>
+        <ul class="songdescription">
+ -->        <!--   <li class="artistalbumgenre">The Avett Brothers</li><span>|</span>
+          <li class="artistalbumgenre">I and Love and You</li><span>|</span>
+          <li class="artistalbumgenre">Folk</li>
+        </ul>
 
-<div class="songs">
-  <h3>I and Love and You</h3>
-    <ul class="songdescription">
-      <li class="artistalbumgenre">The Avett Brothers</li><span>|</span>
-      <li class="artistalbumgenre">I and Love and You</li><span>|</span>
-      <li class="artistalbumgenre">Folk</li>
-    </ul>
+      <h3>Mirrors</h3>
+        <ul class="songdescription">
+          <li class="artistalbumgenre">Justin Timerlake</li><span>|</span>
+          <li class="artistalbumgenre">The 20/20 Experience</li><span>|</span>
+          <li class="artistalbumgenre">Pop</li>
+        </ul>
 
-  <h3>Mirrors</h3>
-    <ul class="songdescription">
-      <li class="artistalbumgenre">Justin Timerlake</li><span>|</span>
-      <li class="artistalbumgenre">The 20/20 Experience</li><span>|</span>
-      <li class="artistalbumgenre">Pop</li>
-    </ul>
+      <h3>Ledges</h3>
+        <ul class="songdescription">
+          <li class="artistalbumgenre">Noah Gundersen</li><span>|</span>
+          <li class="artistalbumgenre">Ledges</li><span>|</span>
+          <li class="artistalbumgenre">Alternative</li>
+        </ul>
 
-  <h3>Ledges</h3>
-    <ul class="songdescription">
-      <li class="artistalbumgenre">Noah Gundersen</li><span>|</span>
-      <li class="artistalbumgenre">Ledges</li><span>|</span>
-      <li class="artistalbumgenre">Alternative</li>
-    </ul>
-
-  <h3>Shake It Off</h3>
-    <ul class="songdescription">
-      <li class="artistalbumgenre">Taylor Swift</li><span>|</span>
-      <li class="artistalbumgenre">1989</li><span>|</span>
-      <li class="artistalbumgenre">Country</li>
-    </ul>
-</div>
-
-<div class="bluebox">
-  <h4>Song length:</h4>
-    <input type="range" name="songlength" class="slider">
-
-  <h4>Artist:</h4>
-    <select class=dropdown>
-      <option value="theAvettBrothers">The Avett Brothers</option>
-      <option value="justinTimerlake">Justin Timberlake</option>
-      <option value="noahGundersen">Noah Gundersen</option>
-      <option value="taylorSwift">Taylor Swift</option>
-    </select>
-
-  <h4>Album:</h4>
-    <select class=dropdown>
-      <option value="iandloveandyou">I and Love and You</option>
-      <option value="the2020experience">The 20/20 Experience</option>
-      <option value="ledges">Ledges</option>
-      <option value="1989">1989</option>
-    </select>
-
-  <h4>Genre:</h4>
-    <div class="genre">
-    <!-- first three options to choose from for genre -->
-      <ul>
-        <li>
-          <input type="checkbox" id="rock" name="genre" class="checkbox">
-          <label for="rock">Rock </label>
-        </li>
-        <li>
-          <input type="checkbox" id= "pop" name="genre" class="checkbox">
-          <label for="pop" id="example">Pop</label>
-        </li>
-        <li>
-          <input type="checkbox" id= "blues" name="genre" class="checkbox">
-          <label for="blues">Blues</label>
-        </li>
-        <li>
-          <input type="checkbox" id= "classical" name="genre" class="checkbox">
-          <label for="classical">Classical</label>
-        </li>
-        <li>
-          <input type="checkbox" id= "jazz" name="genre" class="checkbox">
-          <label for="jazz">Jazz</label>
-        </li>
-        <li>
-          <input type="checkbox" id= "hiphop" name="genre" class="checkbox">
-        <label for="hiphop">Hip Hop </label>
-        </li>
-      </ul>
-
-    <div>
-    <input type="button" id="filter" value="Filter" class="filterbutton">
+      <h3>Shake It Off</h3>
+        <ul class="songdescription">
+          <li class="artistalbumgenre">Taylor Swift</li><span>|</span>
+          <li class="artistalbumgenre">1989</li><span>|</span>
+          <li class="artistalbumgenre">Country</li>
+        </ul> -->
     </div>
 
-    </div>
+    <div class="bluebox">
+      <h4>Song length:</h4>
+        <input type="range" name="songlength" class="slider">
 
+      <h4>Artist:</h4>
+        <select class=dropdown>
+          <option value="theAvettBrothers">The Avett Brothers</option>
+          <option value="justinTimerlake">Justin Timberlake</option>
+          <option value="noahGundersen">Noah Gundersen</option>
+          <option value="taylorSwift">Taylor Swift</option>
+        </select>
+
+      <h4>Album:</h4>
+        <select class=dropdown>
+          <option value="iandloveandyou">I and Love and You</option>
+          <option value="the2020experience">The 20/20 Experience</option>
+          <option value="ledges">Ledges</option>
+          <option value="1989">1989</option>
+        </select>
+
+      <h4>Genre:</h4>
+        <div class="genre">
+        <!-- first three options to choose from for genre -->
+          <ul>
+            <li>
+              <input type="checkbox" id="rock" name="genre" class="checkbox">
+              <label for="rock">Rock </label>
+            </li>
+            <li>
+              <input type="checkbox" id= "pop" name="genre" class="checkbox">
+              <label for="pop" id="example">Pop</label>
+            </li>
+            <li>
+              <input type="checkbox" id= "blues" name="genre" class="checkbox">
+              <label for="blues">Blues</label>
+            </li>
+            <li>
+              <input type="checkbox" id= "classical" name="genre" class="checkbox">
+              <label for="classical">Classical</label>
+            </li>
+            <li>
+              <input type="checkbox" id= "jazz" name="genre" class="checkbox">
+              <label for="jazz">Jazz</label>
+            </li>
+            <li>
+              <input type="checkbox" id= "hiphop" name="genre" class="checkbox">
+            <label for="hiphop">Hip Hop </label>
+            </li>
+          </ul>
+
+        <div>
+          <input type="button" id="filter" value="Filter" class="filterbutton">
+        </div>
+       </div>
+
+
+        </div>
+  </section>
+
+  <section id="add-view" class="addMusicPage hidden">
+
+    <label class="addMusicInputLabel">Song Name:
+    <input class="addMusicInputField" type="text" name="nameofsong" id="userInputSong"></label><br>
+
+    <label class="addMusicInputLabel">Artist Name:
+    <input class="addMusicInputField" type="text" name="artist" id="userInputArtist"></label><br>
+
+    <label class="addMusicInputLabel">Album Name:
+    <input class="addMusicInputField" type="text" name="album" id="userInputAlbum"></label><br>
+
+    <input id="addMusicButton" type="button" name="addMusic" value="Add">
+
+  </section>
+
+<script type="text/javascript" src="home.js"></script>
+<script type="text/javascript" src="add.js"></script>
+<script type="text/javascript" src="songs.js"></script>
+<script type="text/javascript" src="list.js"></script>
 </body>
 </html>
