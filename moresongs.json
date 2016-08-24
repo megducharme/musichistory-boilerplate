@@ -1,0 +1,19 @@
+{
+  "songs": [
+    {
+      "songName":"Let it Go",
+      "artistName":"James Bay",
+      "albumName":"Chaos in the Calm"
+    },
+    {
+      "songName":"Love Yourself",
+      "artistName":"Justin Bieber",
+      "albumName":"Purpose"
+    },
+    {
+      "songName":"Photograph",
+      "artistName":"Ed Sheeran",
+      "albumName":"X"
+    }
+  ]
+}
