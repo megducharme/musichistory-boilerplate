@@ -11,6 +11,3 @@ addLink.addEventListener("click", function() {
   addView.classList.remove("hidden");
 
 });
-
-
-
